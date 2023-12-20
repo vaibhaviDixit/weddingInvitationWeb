@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Graphene;
+    src: url(../fonts/Graphene.otf) format("truetype");
+}
+
+:root{
+   --theme1:#ebba18;
+   --theme2:#5d060f;
+}
+
+* {
+    font-family: Graphene !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+img{
+    user-select: none !important;
+    pointer-events:none !important;
+}
+#app img {
+    max-height: 40vh;
+}
+
+.btn-graphene {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    background-color: rgba(173, 220, 203);
+    color: #000;
+    border: 2px solid #ADDCCB;
+}
+
+.btn-graphene:hover,
+.btn-graphene:active,
+.btn-graphene:focus {
+    background-color: rgba(173, 220, 203, .3);
+    border: 2px solid #ADDCCB;
+    color: #000;
+}
+
+.navbar *{
+    user-select: none !important;
+}
+
+/*form*/
+
+.weddetailsForm{
+    padding: 10px;
+}
+.weddetailsForm img{
+    height: 100px !important;
+}
+
+.weddetailsForm .row div{
+    position: relative;
+}
+
+.form-label{
+    position: absolute;
+    top: -17px;
+    left: 18px;
+    background: var(--theme2);
+    padding: 1px 9px;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-theme{
+    color: var(--theme2);
+    background-color: var(--theme1);
+    border-color: var(--theme1);
+}
+
+.img-input{
+    position: absolute;
+    top: 55%;
+    left: 57%;
+    padding: 0px 3px;
+}
+
+.shubhvivahImg{
+  height: 100px;
+  width: 200px;
+  top: 70px;
+}
+
+/*logo*/
+
+#logo{
+ height: 130px;
+ position: absolute; 
+ left: 30px;
+}
+
+.headText{
+    color: #fff;
+}
+
+/*card*/
+
+.names{
+  margin: 12px 0px;
+  color:#fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.mycard{
+    font-size: 18px;
+    color: var(--theme1);
+    background-color: var(--theme2);
+    padding: 10px 9px;
+    border-radius: 10px;
+
+}
+.address{
+    color: #fff;
+    width: 40%;
+}
+
+.inviterText{
+    color: var(--theme1);
+    font-weight: bold;
+    font-size: 28px;
+}
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+
+
+}
+
+
+
